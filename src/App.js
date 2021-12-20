@@ -21,7 +21,7 @@ function App() {
           <StyledLink to="/career">Career</StyledLink> |{" "}
           <StyledLink to="/media">Media</StyledLink>
         </StyledNav>
-        <button onClick={tgDarkMode}>Light/Dark mode WIP</button>
+        <button onClick={tgDarkMode}>Light/Dark mode WIP!!</button>
       </Header>
       <Outlet />
 
