@@ -23,11 +23,7 @@ const Portfolio = () => {
     >
       <MDBCol>
         <MDBCard className="shadow-4-strong">
-          <MDBCardImage
-            src={img1}
-            alt="Message Me app"
-            position="top"
-          />
+          <MDBCardImage src={img1} alt="Message Me app" position="top" />
           <MDBCardBody>
             <MDBCardTitle>Message Me</MDBCardTitle>
             <MDBCardText>
@@ -49,18 +45,17 @@ const Portfolio = () => {
 
       <MDBCol>
         <MDBCard className="shadow-4-strong">
-          <MDBCardImage
-            src={img2}
-            alt="Favorite Quotes app"
-            position="top"
-          />
+          <MDBCardImage src={img2} alt="Favorite Quotes app" position="top" />
           <MDBCardBody>
             <MDBCardTitle>Favorite Quotes</MDBCardTitle>
             <MDBCardText>
               Simple program displaying some of my favorite quotes. Implements
               Bootstrap's Carousel component.
             </MDBCardText>
-            <MDBCardLink href="https://avilldaniel.github.io/fav-quotes/" target="_blank">
+            <MDBCardLink
+              href="https://avilldaniel.github.io/fav-quotes/"
+              target="_blank"
+            >
               <MDBCardSubTitle>fav-quotes</MDBCardSubTitle>
             </MDBCardLink>
             <MDBCardFooter className="mt-2">
@@ -74,18 +69,17 @@ const Portfolio = () => {
 
       <MDBCol>
         <MDBCard className="shadow-4-strong">
-          <MDBCardImage
-            src={img3}
-            alt="My Website app"
-            position="top"
-          />
+          <MDBCardImage src={img3} alt="My Website app" position="top" />
           <MDBCardBody>
             <MDBCardTitle>My Website V1</MDBCardTitle>
             <MDBCardText>
               What you are viewing right now! But don't worry, this will be
               scrapped & re-built as I progress in my CSS skills. I promise!
             </MDBCardText>
-            <MDBCardLink href="#" target="_blank">
+            <MDBCardLink
+              href="https://avilldaniel.netlify.app/"
+              target="_blank"
+            >
               <MDBCardSubTitle>my-resume</MDBCardSubTitle>
             </MDBCardLink>
             <MDBCardFooter className="mt-2">
