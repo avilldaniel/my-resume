@@ -16,7 +16,7 @@ function App() {
     <BrowserRouter className="App">
       <Header>
         <StyledLink to="/"><h1>Daniel Villegas</h1></StyledLink>
-        <StyledNav>
+        <StyledNav className="align-self-center">
           <StyledLink to="/portfolio">Portfolio</StyledLink> |{" "}
           <StyledLink to="/career">Career</StyledLink> |{" "}
           <StyledLink to="/media">Media</StyledLink>

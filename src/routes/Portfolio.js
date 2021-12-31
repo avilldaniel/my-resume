@@ -28,7 +28,7 @@ const Portfolio = () => {
             <MDBCardTitle>Message Me</MDBCardTitle>
             <MDBCardText>
               App that lets you contact me in regards to anything! It utilizes
-              the EmailJS JavaScript library that can send emails directly from
+              the EmailJS JavaScript library that can send emails directly through
               client-side JavaScript code.
             </MDBCardText>
             <MDBCardLink href="https://msg-me.netlify.app/" target="_blank">
@@ -36,7 +36,7 @@ const Portfolio = () => {
             </MDBCardLink>
             <MDBCardFooter className="mt-2">
               <small>
-                React, Create-React-App, EmailJS, Netlify, Bootstrap
+                React (useState), Create-React-App, EmailJS, Netlify, Bootstrap
               </small>
             </MDBCardFooter>
           </MDBCardBody>
@@ -85,7 +85,7 @@ const Portfolio = () => {
             <MDBCardFooter className="mt-2">
               <small>
                 React, Create-React-App, React Router, Styled Components,
-                MDBootstrap, Github Pages
+                MDBootstrap, Netlify
               </small>
             </MDBCardFooter>
           </MDBCardBody>
