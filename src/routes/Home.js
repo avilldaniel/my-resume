@@ -23,7 +23,7 @@ const Home = () => {
           className="h4 mx-auto text-left mt-4 mb-4"
           style={{ textAlign: "left" }}
         >
-          Hello, my name is Daniel. I'm an aspiring Web Developer with a passion
+          Hello, my name is Daniel. I'm an aspiring Programmer with a passion
           for music and video games! In 2020, I received my Bachelor of Arts in
           Computer Science at UNLV.
           <br />
@@ -37,8 +37,8 @@ const Home = () => {
           <br />
           <br />
           At the moment, I work full-time IT for the Cosmopolitan of Las Vegas.
-          While I'm not at work, I spend my time studying (on YouTube or Udemy)
-          or building programs. Feel free to open that Portfolio tab to sift
+          While I'm not at work, I spend my time building programs or studying
+          (on YouTube or Udemy). Feel free to open that Portfolio tab to sift
           through some of my work!
         </div>
 
@@ -70,7 +70,7 @@ const Home = () => {
         <div className="mx-auto mt-2 mb-5">
           <h2>
             <MDBBadge className="ms-2" color="warning">
-              BA in Computer Science, UNLV
+              B.A. in Computer Science, UNLV
             </MDBBadge>
             <MDBBadge className="ms-2" color="warning">
               IT Asset Technician
