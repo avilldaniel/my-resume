@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Link, Outlet, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 import Header from "./styled-comp/Header";
 import StyledLink from "./styled-comp/StyledLink";
 import Home from "./routes/Home";
 import Portfolio from "./routes/Portfolio";
 import Career from "./routes/Career";
 import Media from "./routes/Media";
-import tgDarkMode from "./components/tgDarkMode";
 import StyledNav from "./styled-comp/StyledNav";
-import Footer from "./components/Footer";
+// import tgDarkMode from "./components/tgDarkMode";
+// import Footer from "./components/Footer";
 
 function App() {
   return (

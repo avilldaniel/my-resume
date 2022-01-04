@@ -14,6 +14,7 @@ import {
 import img1 from "../images/msgMeIMG.png";
 import img2 from "../images/favQuotesIMG.png";
 import img3 from "../images/myResume.png";
+import img4 from "../images/cryptoWatchlist.png";
 
 const Portfolio = () => {
   return (
@@ -37,6 +38,29 @@ const Portfolio = () => {
             <MDBCardFooter className="mt-2">
               <small>
                 React (useState), Create-React-App, EmailJS, Netlify, Bootstrap
+              </small>
+            </MDBCardFooter>
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+
+      <MDBCol>
+        <MDBCard className="shadow-4-strong">
+          <MDBCardImage src={img4} alt="My Crypto Watchlist" position="top" />
+          <MDBCardBody>
+            <MDBCardTitle>My Crypto Watchlist</MDBCardTitle>
+            <MDBCardText>
+              View the current market price of a few Cryptocurrencies which I
+              tend to keep an eye on. I use the Axios library for fetching data
+              from the CoinGecko API. That data is pulled as useEffect renders,
+              and is then stored with useState.
+            </MDBCardText>
+            <MDBCardLink href="https://my-crypto-watchlist.netlify.app/" target="_blank">
+              <MDBCardSubTitle>crypto-watchlist</MDBCardSubTitle>
+            </MDBCardLink>
+            <MDBCardFooter className="mt-2">
+              <small>
+                React (useState & useEffect), Create-React-App, Axios, Styled Components, Netlify
               </small>
             </MDBCardFooter>
           </MDBCardBody>
