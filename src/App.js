@@ -6,7 +6,7 @@ import StyledLink from "./styled-comp/StyledLink";
 import Home from "./routes/Home";
 import Portfolio from "./routes/Portfolio";
 import Career from "./routes/Career";
-import Media from "./routes/Media";
+import Web3 from "./routes/Web3";
 import StyledNav from "./styled-comp/StyledNav";
 // import tgDarkMode from "./components/tgDarkMode";
 // import Footer from "./components/Footer";
@@ -19,7 +19,7 @@ function App() {
         <StyledNav className="align-self-center">
           <StyledLink to="/portfolio">Portfolio</StyledLink> |{" "}
           <StyledLink to="/career">Career</StyledLink> |{" "}
-          <StyledLink to="/media">Media</StyledLink>
+          <StyledLink to="/web3">Web3</StyledLink>
         </StyledNav>
         {/* <button onClick={tgDarkMode}>Light/Dark mode WIP!!</button> */}
       </Header>
@@ -29,7 +29,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/career" element={<Career />} />
-        <Route path="/media" element={<Media />} />
+        <Route path="/web3" element={<Web3 />} />
         <Route
           path="*"
           element={
