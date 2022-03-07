@@ -24,13 +24,36 @@ const Portfolio = () => {
     >
       <MDBCol>
         <MDBCard className="shadow-4-strong">
+          <MDBCardImage src={img1} alt="To-do app" position="top" />
+          <MDBCardBody>
+            <MDBCardTitle>Cosmo To-do</MDBCardTitle>
+            <MDBCardText>
+              A to-do application which lets you create, delete, and edit a list
+              of to-do's. The list of to-do's communicates from a Postgres
+              database connected to a Node.js app ran and deployed on Heroku.
+            </MDBCardText>
+            <MDBCardLink href="https://cosmo-assets.vercel.app/todo" target="_blank">
+              <MDBCardSubTitle>cosmo-to-do</MDBCardSubTitle>
+            </MDBCardLink>
+            <MDBCardFooter className="mt-2">
+              <small>
+                PERN stack, React Router, Axios, Tailwind, Node-Postgres, Cors,
+                Nodemon, dotenv, Vercel, Heroku
+              </small>
+            </MDBCardFooter>
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+
+      <MDBCol>
+        <MDBCard className="shadow-4-strong">
           <MDBCardImage src={img1} alt="Message Me app" position="top" />
           <MDBCardBody>
             <MDBCardTitle>Message Me</MDBCardTitle>
             <MDBCardText>
               App that lets you contact me in regards to anything! It utilizes
-              the EmailJS JavaScript library that can send emails directly through
-              client-side JavaScript code.
+              the EmailJS JavaScript library that can send emails directly
+              through client-side JavaScript code.
             </MDBCardText>
             <MDBCardLink href="https://msg-me.netlify.app/" target="_blank">
               <MDBCardSubTitle>msg-me</MDBCardSubTitle>
@@ -55,12 +78,16 @@ const Portfolio = () => {
               from the CoinGecko API. That data is pulled as useEffect renders,
               and is then stored with useState.
             </MDBCardText>
-            <MDBCardLink href="https://my-crypto-watchlist.netlify.app/" target="_blank">
+            <MDBCardLink
+              href="https://my-crypto-watchlist.netlify.app/"
+              target="_blank"
+            >
               <MDBCardSubTitle>crypto-watchlist</MDBCardSubTitle>
             </MDBCardLink>
             <MDBCardFooter className="mt-2">
               <small>
-                React (useState & useEffect), Create-React-App, Axios, Styled Components, Netlify
+                React (useState & useEffect), Create-React-App, Axios, Styled
+                Components, Netlify
               </small>
             </MDBCardFooter>
           </MDBCardBody>
