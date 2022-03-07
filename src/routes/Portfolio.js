@@ -15,6 +15,7 @@ import img1 from "../images/msgMeIMG.png";
 import img2 from "../images/favQuotesIMG.png";
 import img3 from "../images/myResume.png";
 import img4 from "../images/cryptoWatchlist.png";
+import img5 from "../images/cosmo-todo.png";
 
 const Portfolio = () => {
   return (
@@ -24,7 +25,7 @@ const Portfolio = () => {
     >
       <MDBCol>
         <MDBCard className="shadow-4-strong">
-          <MDBCardImage src={img1} alt="To-do app" position="top" />
+          <MDBCardImage src={img5} alt="To-do app" position="top" />
           <MDBCardBody>
             <MDBCardTitle>Cosmo To-do</MDBCardTitle>
             <MDBCardText>
